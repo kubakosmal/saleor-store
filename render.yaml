@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: saleor-backend
+    env: docker
+    plan: free
+    dockerfilePath: ./docker-compose.yml
